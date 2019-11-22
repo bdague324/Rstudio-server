@@ -1,14 +1,15 @@
-# Rstudio-server
-How to Install RStudio Server on CentOS 7
+# Rstudio-
+
+## How to Install RStudio Server on CentOS 7
 
 Prerequisites
-•	A CentOS 7 server instance with at least 1GB of RAM, 2GB of RAM or more recommended.
-•	A sudo user.
+* A CentOS 7 *server* instance **with** at least 1GB of RAM, 2GB of RAM or more recommended.
+*	A sudo user.
 
 Step 1: Update the system
-Log in as a sudo user, and then execute the below commands:
-sudo yum install epel-release
-sudo yum update
+1. Log in as a sudo user, and `then` execute the below commands:
+2. sudo yum install epel-release
+1. sudo yum update
 sudo shutdown -r now
 After the reboot, use the same sudo user to log in back.
 
